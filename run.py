@@ -59,7 +59,7 @@ def load_array(path):
 def restore_array(model, arr, device, use_tta=True):
     """Run one (H, W) numpy array through the model, return (H_out, W_out) numpy array."""
     # NOTE: input may legitimately exceed [0, 1] due to speckle overshoot.
-    # We do NOT clip the input -- the model is trained to handle this.
+    # Input is NOT clipped here -- the model is trained to handle raw values.
     tensor = torch.from_numpy(arr).unsqueeze(0).unsqueeze(0).float().to(device)  # (1,1,H,W)
 
     with torch.no_grad():

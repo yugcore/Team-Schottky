@@ -1,6 +1,6 @@
 # AI-Based Restoration of Degraded Images for Semiconductor Inspection
 
-Team: `team_name`
+Team: `Team-Schottky`
 
 ## Approach
 
@@ -19,7 +19,7 @@ See `models/ffc_restoration.py` for the full architecture.
 ## Directory structure
 
 ```
-team_name/
+Team-Schottky/
 ├── run.py                    # entry point (with 8-fold TTA)
 ├── requirements.txt
 ├── README.md

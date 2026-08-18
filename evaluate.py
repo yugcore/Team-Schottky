@@ -4,8 +4,8 @@ folder pair) using PSNR and SSIM, and save a visual comparison grid.
 
 Usage:
     python evaluate.py \
-        --gt_dir "Y:/team_name/datasets/train/train/GT" \
-        --noisy_dir "Y:/team_name/datasets/train/train/NoisyLR" \
+        --gt_dir "Y:/Team-Schottky/datasets/train/train/GT" \
+        --noisy_dir "Y:/Team-Schottky/datasets/train/train/NoisyLR" \
         --weights models/weights.pth \
         --n_samples 8 \
         --val_split 0.1 --seed 42
