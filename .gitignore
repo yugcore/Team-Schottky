@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and environments
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Datasets and data files
+datasets/
+data/
+*.npy
+*.npz
+*.tar
+*.tar.gz
+*.zip
+
+# Outputs, logs, and evaluation artifacts
+outputs/
+output/
+results/
+logs/
+runs/
+checkpoints/
+eval_comparison.png
+*.log
+
+# Model checkpoints (ignore random weights, allow bundled submission weights)
+*.pt
+*.ckpt
+*.pth
+!models/weights.pth
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
