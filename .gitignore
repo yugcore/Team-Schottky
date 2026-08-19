@@ -15,6 +15,7 @@ env/
 ENV/
 DOCUMENTATION.md
 .env
+USER.md
 
 # Datasets and data files
 datasets/
